@@ -1,0 +1,24 @@
+15-1.C
+
+
+rlk@ubuntu:code$ gcc -o 15-1 15-1.c -lpthread
+rlk@ubuntu:code$ ./15-1
+thread num ------------4
+LOOP per thread -------10000000
+expect results --------40000000
+actual results --------10914129
+
+
+15-2.C
+
+
+
+rlk@ubuntu:code$ gcc -o 15-2 15-2.c -lpthread
+rlk@ubuntu:code$ ./15-2
+thread num ------------4
+LOOP per thread -------10000000
+expect results --------40000000
+actual results --------40000000
+
+
+15-3.C
